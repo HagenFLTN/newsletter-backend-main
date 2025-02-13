@@ -19,8 +19,8 @@ jobs:
         uses: oven-sh/setup-bun@v2
       - name: bun install, and start
         run: |
-        bun install
-        bun run build
+          bun install
+          bun run build
 
       - name: Zip artifact for deployment
         run: zip release.zip ./app -r
