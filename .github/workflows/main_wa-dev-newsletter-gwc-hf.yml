@@ -18,7 +18,7 @@ jobs:
       - name: Use Bun
         uses: oven-sh/setup-bun@v2
       - name: bun install, and start
-      run: |
+        run: |
         bun install
         bun run build
 
